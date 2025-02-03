@@ -1,0 +1,80 @@
+<!doctype html>
+  <html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register your child</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="icon" type="image/x-icon" href="../media/logo.jpg">
+  </head>
+    <body>
+      <div class="topnav" id="myTopnav">
+  <a href="../index.html">Home</a>
+  <a href="../about/index.html">About us</a>
+      <a href="../contacts/index.html">Contact us</a>
+        <a href="index.html" class="active">Register Now</a>
+     <a href="#" onclick="navigator.share({title:'Check out this school!', text:'This is one of the best schools in Kawempe ever that you wont regret taking your child to.', url:'(https://gloryinternationalacademy.github.io)'})">Recommend</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <span id="menu">Menu</span>
+    <script>
+    function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+    </script>
+  </a>
+</div>
+      <img src="../media/logo.jpg" width="200px" height="200px" class="logo">
+      <br>
+      <small>The spring of wisdom</small>
+    <h3>How can you register your child with our school?</h3>
+  <div class="content">
+    <p>Admission is still going on and you dont need to come to our office if you are still busy, all you need is just to fill the form below so that you secure a vaccancy for your child.</p>
+    <div class="gallery">
+      <h2>Register here.</h2>
+      <form action="https://formspree.io/f/xvgzgoyk" method="POST" enctype="multipart/form-data">
+        <label for="child_name">Child Names</label><br>
+        <input type="text" name="child_name" maxlength="30" placeholder="Lukyamuzi Victor" required><br><br>
+        <label for="child_pic">Child Profile Picture</label><br>
+        <input type="file" accept="image/jpg" name="upload" required><br><br>
+        <label for="date_of_birth">Child Date Of Birth</label><br>
+        <input type="date" name="date_of_birth" required><br><br>
+        <label for="Parent_name">Parent Names</label><br>
+        <input type="text" name="parent_name" maxlength="30" placeholder="Bwayo Gad" required><br><br>
+        <label for="contact">Contact</label><br>
+        <input type="tel" name="contact" maxlength="14" placeholder="+256780245847/0780245847" required><br><br>
+        <label for="email">Parent Email</label><br>
+        <input type="email" name="email" maxlength="30" placeholder="mustafakitooke@gmail.com"><br><br>
+        <label for="class">Class of Admission</label><br>
+        <select name="class" required>
+          <option>Baby</option>
+          <option>Middle</option>
+          <option>Top</option>
+          <option>P.1</option>
+          <option>P.2</option>
+          <option>P.3</option>
+          <option>P.4</option>
+          <option>P.5</option>
+        </select><br><br>
+        <label for="health">Child health issues</label><br>
+        <textarea name="message" placeholder="Description and if good say good" cols="30" rows="7"></textarea><br><br>
+        <label for="doctor_contacts">Doctor Contacts</label><br>
+        <input type="tel" name="doctor_contact" maxlength="14" placeholder="0780245847" required><br><br>
+        <input type="submit" value="Register" class="submit"><br><br>
+      </form>
+    </div>
+    </div>
+  <div class="float">
+    <a href="tel:0751423172"><img src="../media/phone.jpg" class="side"></a><br>
+    <small>Call us</small><br>
+    <a href="mailto:bwayogad3@gmail.com"><img src="../media/mail.jpg" class="side"></a><br>
+    <small>Mail us</small><br>
+  </div>
+  <hr>
+  <br>
+  <small>All rights reserved and protected by the copyright digital act 2023. No part of this may be replicated without prior owner permission.</small>
+  </body>
+  </html>
