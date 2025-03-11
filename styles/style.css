@@ -5,8 +5,36 @@ body{
   padding: 0;
   box-sizing: border-box;
   text-align: center;
-  background: linear-gradient(white);
-  color: blue;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+:root {
+  --primary-color: #007BFF; /* Blue */
+  --secondary-color: #6c757d; /* Gray */
+  --background-color: #f8f9fa; /* Light Gray */
+  --text-color: #333; /* Dark Gray */
+  --accent-color: #ffc107; /* Yellow */
+}
+
+header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+button, .cta-button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, .cta-button:hover {
+  background-color: var(--accent-color);
 }
 .logo{
   border-radius: 2000px;
